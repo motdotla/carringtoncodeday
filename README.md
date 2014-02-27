@@ -1,6 +1,6 @@
 # carringtoncodeday
 
-Curriculum for Carrington CodeDay [@riversideio][http://twitter.com/riversideio].
+Curriculum for Carrington CodeDay [@riversideio](http://twitter.com/riversideio).
 
 ## Usage
 
