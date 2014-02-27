@@ -20,13 +20,13 @@ var board   = new five.Board({
 
 board.on("ready", function() {
   var led = new five.Led({
-    pin: 13
+    pin: 10
   });
 
-  led.off();
+  led.on();
 
   countDown(function(resp) {
     console.log(resp);
-    led.on();
+    led.off();
   });
 });

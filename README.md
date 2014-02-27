@@ -144,3 +144,28 @@ board.on("ready", function() {
 ```
 
 Now, after the 10 seconds are over, we turn on the led. That led is simulating our launch of the rocket at this time.
+
+# Notes
+
+* 6-10
+* Freshmen
+* Hoping to be engineers. This is a chance to introduce them to programming.
+* If you can come up with the code then, the user 
+
+# Materials
+
+* Laptops
+* Sublime Text Editor
+*
+
+# Parts
+
+* Assembling rocket (15-20 minutes) 9:45am    
+* Go out and launch them (30-45 minutes) 10:10am 
+* Install Arduino and Firmata (30 minutes) 11:00am
+* Jump into the code (30 minutes). Code an LED to flash 11:30am
+* 12:00pm lunch  
+* 12:30pm lunch ends 
+* Creating a countdown timer (30 minutes). 12:30pm - 1:00pm
+* Combining that code w/ the signal to launch the rocket (30-60 minutes). 1:00pm - 2:00pm 
+* 2:00pm - 3:00pm and launch rocket 
