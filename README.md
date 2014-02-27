@@ -108,7 +108,7 @@ Inside the counter you can see that we are logging out the count using console.l
 
 Good job, we've written a counter. Before, that we wrote the basics of setting up our board. Now, let's combine the two.
 
-```
+```javascript
 // timer countdown
 var countDown = function(callback){
   var count = 10;
