@@ -1,13 +1,11 @@
 // timer countdown
-var count   = 10;
-
 var countDown = function(callback){
   var count = 10;
   var counter = setInterval(function() {
     console.log(count);
 
     count = count - 1;
-    if (count <= 0) {
+    if (count < 0) {
       clearInterval(counter);
       callback("LIFT OFF!");
     }
