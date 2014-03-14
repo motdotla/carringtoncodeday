@@ -15,7 +15,8 @@ var countDown = function(callback){
 //// board control
 var five    = require("johnny-five");
 var board   = new five.Board({
-  debug: true
+  debug: true,
+  repl: false
 });
 
 board.on("ready", function() {
