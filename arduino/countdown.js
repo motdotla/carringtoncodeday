@@ -19,14 +19,18 @@ var board   = new five.Board({
 });
 
 board.on("ready", function() {
-  var led = new five.Led({
+  var launchLed = new five.Led({
     pin: 10
   });
 
-  led.on();
+  var statusLed = new five.Led({
+    pin: 13
+  });
+
+  statusLed.on();
 
   countDown(function(resp) {
     console.log(resp);
-    led.off();
+    launchLed.on();
   });
 });
